@@ -5,14 +5,28 @@
     scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
 /* navbar */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #222;
     color: #fff;
-    padding: 1rem 2rem;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    z-index: 1000;
+    padding: 12px 20px;
+}
+
+main, section:first-of-type {
+  margin-top: 70px; /* adjust depending on navbar height */
 }
 
 .navbar .logo{
@@ -280,8 +294,8 @@ section h2{
 
 /* Footer */
 footer{
-    text-align: right;
-    padding: 1.4rem;
+    text-align: center  ;
+    padding: 1.2rem;
     background: #222;
     color: #ccc;
     font-size: 0.9rem;
@@ -289,7 +303,17 @@ footer{
 
 .contact{
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 
+}
+
+.last-message{
+  padding: 1.5rem 1rem;
+  margin-bottom: 0;
+  
 }
 
 @media (max-width: 768px) {
