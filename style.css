@@ -7,12 +7,19 @@
 
 /* navbar */
 .navbar{
+      background-color: white;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #222;
     color: #fff;
     padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
 }
 
 .navbar .logo{
@@ -312,3 +319,4 @@ footer{
     padding: 3rem 1rem;
   }
 }
+
