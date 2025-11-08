@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth; // cdsc//
+    scroll-behavior: smooth;
 }
 
 /* navbar */
@@ -55,6 +55,7 @@
     font-style: italic;
     margin: 5px 0;
     color: #000000;
+    text-align: left;
 }
 
 .btn{
@@ -83,6 +84,57 @@ section h2{
     margin-bottom: 1rem;
     color: #00bcd4;
 }
+
+/* Experience Section */
+.experience {
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #f1f1f1, #e9f7ff);
+}
+
+.experience h2 {
+  text-align: center;
+  color: #00bcd4;
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
+}
+
+.job {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.job:hover {
+  transform: translateY(-5px);
+}
+
+.job h3 {
+  color: #019ab0;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.job p {
+  font-size: 0.95rem;
+  margin: 0.4rem 0;
+  color: #333;
+}
+
+.job ul {
+  margin-top: 0.8rem;
+  padding-left: 1.2rem;
+}
+
+.job ul li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+  color: #444;
+}
+
 
 
 /* Projects */
@@ -143,8 +195,74 @@ section h2{
     background:#019ab0;
 }
 
+/* Certificate Section */
+.Certificate {
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  color: #fff;
+}
+
+.Certificate h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.Certificate-grid {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem 2rem;
+  justify-items: center;
+}
+
+.Certificate-item {
+  text-align: center;
+  width: 100%;
+}
+
+.Certificate-item p {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.button-link {
+  background-color: #fff;
+  color: #006b7a;
+  padding: 0.6rem 1.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  min-width: 85px;
+  text-align: center;
+}
+
+.button-link:hover {
+  background-color: #e0f7fa;
+  color: #00bcd4;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
 
 /* Contact */
+
 .contact p{
     text-align: center;
     margin-bottom: 1rem;
@@ -158,8 +276,6 @@ section h2{
 .contact a:hover{
     text-decoration: underline;
 }
-
-
 
 
 /* Footer */
