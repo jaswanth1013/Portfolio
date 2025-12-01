@@ -15,7 +15,7 @@ This repository contains my personal portfolio website built entirely with **HTM
 ---
 
 ## 🚀 Features
-- **Static Portfolio Website** using only HTML & CSS  
+- **Static Portfolio Website** using pure HTML & CSS  
 - **Responsive Design** for desktop and mobile  
 - **Sections Included:**
   - Home / Hero introduction  
